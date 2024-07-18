@@ -33,11 +33,11 @@ def fill_field(xpath, value):
     except Exception as e:
         print(f"Error finding or filling field '{xpath}': {e}")
 
-fill_field("/html/body/div/div[2]/form/div[2]/div/div[2]/div[1]/div/div/div[2]/div/div[1]/div/div[1]/input", "John Doe")
-fill_field("/html/body/div/div[2]/form/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[1]/div/div[1]/input", "1234567890")
-fill_field("/html/body/div/div[2]/form/div[2]/div/div[2]/div[3]/div/div/div[2]/div/div[1]/div/div[1]/input", "johndoe@example.com")
+fill_field("/html/body/div/div[2]/form/div[2]/div/div[2]/div[1]/div/div/div[2]/div/div[1]/div/div[1]/input", "Safuan P Anvar")
+fill_field("/html/body/div/div[2]/form/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[1]/div/div[1]/input", "9895989268")
+fill_field("/html/body/div/div[2]/form/div[2]/div/div[2]/div[3]/div/div/div[2]/div/div[1]/div/div[1]/input", "safuananvar@gmail.com")
 fill_field("/html/body/div/div[2]/form/div[2]/div/div[2]/div[4]/div/div/div[2]/div/div[1]/div[2]/textarea", "123 Main St, Springfield")
-fill_field("/html/body/div/div[2]/form/div[2]/div/div[2]/div[5]/div/div/div[2]/div/div[1]/div/div[1]/input", "123456")
+fill_field("/html/body/div/div[2]/form/div[2]/div/div[2]/div[5]/div/div/div[2]/div/div[1]/div/div[1]/input", "590533")
 
 try:
     month_field = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[1]/div[2]/form/div[2]/div/div[2]/div[6]/div/div/div[2]/div/div/div[1]/div/div[2]/div[1]/div/div[1]/input")))
